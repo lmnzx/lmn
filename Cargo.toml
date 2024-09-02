@@ -1,0 +1,11 @@
+[package]
+name = "lmn"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+miette = { version = "7.2.0", features = ["fancy"] }
